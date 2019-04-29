@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AB1040442274924300EFFA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1040432274924300EFFA83 /* AppDelegate.swift */; };
-		AB1040462274924300EFFA83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1040452274924300EFFA83 /* ViewController.swift */; };
 		AB1040492274924300EFFA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1040472274924300EFFA83 /* Main.storyboard */; };
 		AB10404B2274924500EFFA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB10404A2274924500EFFA83 /* Assets.xcassets */; };
 		AB10404E2274924500EFFA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB10404C2274924500EFFA83 /* LaunchScreen.storyboard */; };
+		AB4C9DE82275AB4400E9C223 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C9DE72275AB4400E9C223 /* TabBarController.swift */; };
+		AB4C9DEE2275ACCB00E9C223 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C9DED2275ACCB00E9C223 /* FirstViewController.swift */; };
+		AB4C9DF02275ACDF00E9C223 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C9DEF2275ACDF00E9C223 /* SecondViewController.swift */; };
+		AB4C9DF22275ACF800E9C223 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C9DF12275ACF800E9C223 /* InformationViewController.swift */; };
+		AB4C9DF42275AD2400E9C223 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C9DF32275AD2400E9C223 /* Statistics.swift */; };
+		AB4C9DF72275C4DB00E9C223 /* UIViewController+SaveMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C9DF62275C4DB00E9C223 /* UIViewController+SaveMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB1040402274924300EFFA83 /* Life View Controller Cyrcle Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life View Controller Cyrcle Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1040432274924300EFFA83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB1040452274924300EFFA83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB1040482274924300EFFA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB10404A2274924500EFFA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB10404D2274924500EFFA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB10404F2274924500EFFA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4C9DE72275AB4400E9C223 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AB4C9DED2275ACCB00E9C223 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AB4C9DEF2275ACDF00E9C223 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AB4C9DF12275ACF800E9C223 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		AB4C9DF32275AD2400E9C223 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		AB4C9DF62275C4DB00E9C223 /* UIViewController+SaveMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SaveMessage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,75 @@
 		AB1040422274924300EFFA83 /* Life View Controller Cyrcle Example */ = {
 			isa = PBXGroup;
 			children = (
+				AB4C9DF52275C4AD00E9C223 /* Extensions */,
+				AB4C9DE62275AA8E00E9C223 /* View Comtrollers */,
+				AB4C9DE52275AA8400E9C223 /* Models */,
 				AB1040432274924300EFFA83 /* AppDelegate.swift */,
-				AB1040452274924300EFFA83 /* ViewController.swift */,
 				AB1040472274924300EFFA83 /* Main.storyboard */,
 				AB10404A2274924500EFFA83 /* Assets.xcassets */,
 				AB10404C2274924500EFFA83 /* LaunchScreen.storyboard */,
 				AB10404F2274924500EFFA83 /* Info.plist */,
 			);
 			path = "Life View Controller Cyrcle Example";
+			sourceTree = "<group>";
+		};
+		AB4C9DE52275AA8400E9C223 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DF32275AD2400E9C223 /* Statistics.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB4C9DE62275AA8E00E9C223 /* View Comtrollers */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DEC2275AC0400E9C223 /* Information View Controller */,
+				AB4C9DEB2275ABEC00E9C223 /* Second View Controller */,
+				AB4C9DEA2275ABD200E9C223 /* First View Controller */,
+				AB4C9DE92275AB4800E9C223 /* Tab Bar Controller */,
+			);
+			path = "View Comtrollers";
+			sourceTree = "<group>";
+		};
+		AB4C9DE92275AB4800E9C223 /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DE72275AB4400E9C223 /* TabBarController.swift */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		AB4C9DEA2275ABD200E9C223 /* First View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DED2275ACCB00E9C223 /* FirstViewController.swift */,
+			);
+			path = "First View Controller";
+			sourceTree = "<group>";
+		};
+		AB4C9DEB2275ABEC00E9C223 /* Second View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DEF2275ACDF00E9C223 /* SecondViewController.swift */,
+			);
+			path = "Second View Controller";
+			sourceTree = "<group>";
+		};
+		AB4C9DEC2275AC0400E9C223 /* Information View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DF12275ACF800E9C223 /* InformationViewController.swift */,
+			);
+			path = "Information View Controller";
+			sourceTree = "<group>";
+		};
+		AB4C9DF52275C4AD00E9C223 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C9DF62275C4DB00E9C223 /* UIViewController+SaveMessage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +167,7 @@
 				TargetAttributes = {
 					AB10403F2274924300EFFA83 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -135,8 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1040462274924300EFFA83 /* ViewController.swift in Sources */,
+				AB4C9DF02275ACDF00E9C223 /* SecondViewController.swift in Sources */,
+				AB4C9DEE2275ACCB00E9C223 /* FirstViewController.swift in Sources */,
 				AB1040442274924300EFFA83 /* AppDelegate.swift in Sources */,
+				AB4C9DF72275C4DB00E9C223 /* UIViewController+SaveMessage.swift in Sources */,
+				AB4C9DE82275AB4400E9C223 /* TabBarController.swift in Sources */,
+				AB4C9DF42275AD2400E9C223 /* Statistics.swift in Sources */,
+				AB4C9DF22275ACF800E9C223 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,13 +362,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R22NV699R6;
 				INFOPLIST_FILE = "Life View Controller Cyrcle Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "pavelKurilov.com.Life-View-Controller-Cyrcle-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -303,13 +381,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R22NV699R6;
 				INFOPLIST_FILE = "Life View Controller Cyrcle Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "pavelKurilov.com.Life-View-Controller-Cyrcle-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
